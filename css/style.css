@@ -201,7 +201,7 @@ body {
 }
 .weather__bottom-icon {
   margin-bottom: 4.5em;
-  width: 160px;
+  width: 120px;
 }
 .weather__bottom-data {
   display: grid;
