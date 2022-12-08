@@ -50,16 +50,15 @@ body {
 		border-bottom: 2px solid whitesmoke;
 		overflow: hidden;
 
-        
 		&-title {
-            margin-bottom: 15px;
+			margin-bottom: 15px;
 			font-size: 2.8rem;
 			text-transform: uppercase;
 			color: whitesmoke;
 		}
-        
+
 		&-cityInput {
-            margin-bottom: 5px;
+			margin-bottom: 5px;
 			padding: 3px 6px;
 			width: 100%;
 			font-size: 1.6rem;
@@ -72,22 +71,22 @@ body {
 			border-right: none;
 			border-radius: 3px;
 
-            
 			&::placeholder {
-                color: rgba(245, 245, 245, 0.556);
+				color: rgba(245, 245, 245, 0.556);
 			}
-            
+
 			&:focus {
-                outline: 2px solid rgb(65, 134, 225);
+				outline: 2px solid rgb(65, 134, 225);
 			}
 		}
 
-        .error-info {
-            align-self: flex-end;
-            margin-bottom: 10px;
-            color: red;
-        }
-        
+		.error-info {
+			align-self: flex-end;
+			margin-bottom: 10px;
+			font-size: 1rem;
+			color: red;
+		}
+
 		&-button {
 			padding: 9px 18px;
 			font-weight: bold;
@@ -171,6 +170,7 @@ body {
 	&__bottom {
 		display: flex;
 		flex-direction: column;
+        justify-content: center;
 		align-items: center;
 		position: absolute;
 		bottom: 0;
