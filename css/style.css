@@ -26,6 +26,7 @@ body {
   align-items: center;
   position: relative;
   height: auto;
+  max-height: 90vh;
   width: min(90vw, 500px);
   background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid whitesmoke;
@@ -81,7 +82,7 @@ body {
 .weather__top .error-info {
   align-self: flex-end;
   margin-bottom: 10px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: red;
 }
 .weather__top-button {
@@ -231,6 +232,9 @@ body {
   }
   .weather__top-button {
     padding: 7px 14px;
+  }
+  .weather__top .error-info {
+    font-size: 1rem;
   }
   .weather__bottom {
     padding: 2em;
