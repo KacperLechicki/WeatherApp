@@ -222,12 +222,29 @@ body {
   align-items: center;
   text-align: center;
   width: 100%;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  .weather__top-title {
+    font-size: 2rem;
+  }
+  .weather__top-button {
+    padding: 7px 14px;
+  }
+  .weather__bottom {
+    padding: 2em;
+  }
+}
 @media only screen and (max-width: 768px) {
   .weather {
     height: 90vh;
+  }
+  .weather__bottom-data {
+    font-size: 0.8rem;
+  }
+  .weather__bottom-dataAnswers {
+    font-size: 1.6rem;
   }
 }
 @media only screen and (min-width: 768px) {
